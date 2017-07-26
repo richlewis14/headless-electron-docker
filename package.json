@@ -1,0 +1,13 @@
+{
+  "name": "electron-test",
+  "description": "Run test electron app headless in docker container",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "electron main.js &"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^1.7.4"
+  }
+}
